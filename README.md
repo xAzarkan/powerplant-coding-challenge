@@ -6,17 +6,19 @@ This repository contains the solution for the Powerplant Coding Challenge.
 
 To run the project, follow the steps below:
 
-1. Navigate to the `source_code_c#` folder.
+1. Clone the repository 
 
-2. Navigate to the `powerplant-coding-challenge` folder.
+2. Navigate to the `source_code_c#` folder.
 
-3. Double click on either the `powerplant-coding-challenge.sln` file to open the project in Visual Studio 2022.
+3. Navigate to the `powerplant-coding-challenge` folder.
 
-4. Once the project is opened, run the project.
+4. Double click on either the `powerplant-coding-challenge.sln` file to open the project in Visual Studio 2022.
 
-5. After the application has started, a web browser tab will automatically open at the following URL: `http://localhost:8888/swagger/index.html`.
+5. Once the project is opened, run the project.
 
-6. In the Swagger UI, you will find the `/productionplan` endpoint where you can make a POST request and provide the payload.
+6. After the application has started, a web browser tab will automatically open at the following URL: `http://localhost:8888/swagger/index.html`.
+
+7. In the Swagger UI, you will find the `/productionplan` endpoint where you can make a POST request and provide the payload.
 
 ## API Documentation
 
