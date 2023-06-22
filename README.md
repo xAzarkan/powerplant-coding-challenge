@@ -23,16 +23,16 @@ To run the project, follow the steps below:
 
 4. Double click on either the `powerplant-coding-challenge.sln` file or the `powerplant-coding-challenge.csproj` file to open the project in Visual Studio 2022.
 
-5. Alternatively, you can also run the application using the following command in the terminal:
+5. Once the project is opened, run the project.
+
+6. 5. Alternatively, you can also run the application using the following command in the terminal:
 ```bash
 dotnet run
 ```
 
-5. Once the project is opened, run the project.
+7. The application can be accessed at the following URL: `http://localhost:8888/swagger/index.html`.
 
-6. After the application has started, a web browser tab will automatically open at the following URL: `http://localhost:8888/swagger/index.html`.
-
-7. In the Swagger UI, you will find the `/productionplan` endpoint where you can make a POST request and provide the payload.
+8. In the Swagger UI, you will find the `/productionplan` endpoint where you can make a POST request and provide the payload.
 
 ## API Documentation
 
