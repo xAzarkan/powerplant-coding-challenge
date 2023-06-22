@@ -21,12 +21,12 @@ To run the project, follow the steps below:
 
 3. Navigate to the subfolder  `powerplant-coding-challenge` again.
 
-4a. First option : Double click on either the `powerplant-coding-challenge.sln` file or the `powerplant-coding-challenge.csproj` file to open the project in Visual Studio 2022.
-4b. Second option : Alternatively, you can also run the application using the following command in the terminal:
+4. Double click on either the `powerplant-coding-challenge.sln` file or the `powerplant-coding-challenge.csproj` file to open the project in Visual Studio 2022.
+
+5. Alternatively, you can also run the application using the following command in the terminal:
 ```bash
 dotnet run
 ```
-
 
 5. Once the project is opened, run the project.
 
