@@ -25,7 +25,7 @@ To run the project, follow the steps below:
 
 5. Once the project is opened, run the project.
 
-6. 5. Alternatively, you can also run the application using the following command in the terminal:
+6. Alternatively, you can also run the application using the following command in the terminal:
 ```bash
 dotnet run
 ```
