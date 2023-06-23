@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1705.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "powerplant-coding-challenge", "powerplant-coding-challenge.csproj", "{5775E55A-510D-46C1-AB93-6C3998911793}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "powerplant-coding-challenge-test", "..\powerplant-coding-challenge-test\powerplant-coding-challenge-test.csproj", "{127F366F-3FC1-4F62-A86F-03882452E8F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5775E55A-510D-46C1-AB93-6C3998911793}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5775E55A-510D-46C1-AB93-6C3998911793}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5775E55A-510D-46C1-AB93-6C3998911793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127F366F-3FC1-4F62-A86F-03882452E8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127F366F-3FC1-4F62-A86F-03882452E8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127F366F-3FC1-4F62-A86F-03882452E8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127F366F-3FC1-4F62-A86F-03882452E8F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

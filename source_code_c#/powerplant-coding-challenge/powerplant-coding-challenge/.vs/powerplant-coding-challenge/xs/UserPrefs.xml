@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{5775E55A-510D-46C1-AB93-6C3998911793}|https">
+  <MonoDevelop.Ide.ItemProperties.powerplant-coding-challenge PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.powerplant-coding-challenge-test FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../powerplant-coding-challenge-test/ProductionPlanRepositoryTest.cs">
+    <Files>
+      <File FileName="Models/ProductionPlanResponse.cs" Line="1" Column="1" />
+      <File FileName="Models/ProductionPlan.cs" Line="1" Column="1" />
+      <File FileName="Models/Powerplant.cs" Line="16" Column="24" />
+      <File FileName="Services/IProductionPlanRepository.cs" Line="3" Column="1" />
+      <File FileName="Services/ProductionPlanRepository.cs" Line="4" Column="11" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Models/FuelData.cs" Line="1" Column="1" />
+      <File FileName="Controllers/ProductionPlanController.cs" Line="1" Column="1" />
+      <File FileName="../powerplant-coding-challenge-test/Usings.cs" Line="1" Column="20" />
+      <File FileName="../powerplant-coding-challenge-test/ProductionPlanRepositoryTest.cs" Line="43" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="powerplant-coding-challenge" expanded="True">
+            <Node name="powerplant-coding-challenge" expanded="True" />
+            <Node name="powerplant-coding-challenge-test" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="ProductionPlanRepositoryTest.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
