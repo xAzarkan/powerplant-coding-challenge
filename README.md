@@ -19,7 +19,7 @@ To run the project, follow the steps below:
 
 2. Navigate to the `powerplant-coding-challenge` folder.
 
-3. Navigate to the subfolder  `powerplant-coding-challenge` again.
+3. Navigate to the subfolder `powerplant-coding-challenge` again.
 
 4. Double click on either the `powerplant-coding-challenge.sln` file or the `powerplant-coding-challenge.csproj` file to open the project in Visual Studio 2022.
 
@@ -37,6 +37,21 @@ dotnet run
 ## API Documentation
 
 The API documentation is provided through Swagger UI, which can be accessed at `http://localhost:8888/swagger/index.html` after starting the application. In Swagger UI, you can explore the `/productionplan` endpoint for submitting a payload.
+
+## Unit tests
+
+To execute the unit tests, follow the steps below:
+
+1. Navigate to the `source_code_c#` folder.
+
+2. Navigate to the `powerplant-coding-challenge` folder.
+
+3. Navigate to the subfolder `powerplant-coding-challenge-test`.
+
+4. Open a terminal in this folder and run the tests using the following command : 
+```bash
+dotnet test
+```
 
 ## Author
 
