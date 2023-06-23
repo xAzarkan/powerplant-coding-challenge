@@ -15,9 +15,9 @@ namespace powerplant_coding_challenge_test
                 Load = 100,
                 Powerplants = new List<Powerplant>
                 {
-                    new Powerplant { Name = "GasPlant1", Type = "gasfired", PMax = 50, Efficiency = 0.7 },
-                    new Powerplant { Name = "GasPlant2", Type = "gasfired", PMax = 40, Efficiency = 0.6 },
-                    new Powerplant { Name = "Turbojet1", Type = "turbojet", PMax = 30, Efficiency = 0.5 }
+                    new Powerplant { Name = "GasPlant1", Type = "gasfired", PMin = 0, PMax = 50, Efficiency = 0.7 },
+                    new Powerplant { Name = "GasPlant2", Type = "gasfired", PMin = 0, PMax = 40, Efficiency = 0.6 },
+                    new Powerplant { Name = "Turbojet1", Type = "turbojet", PMin = 0, PMax = 30, Efficiency = 0.5 }
                 },
                 Fuels = new FuelData { GasPrice = 13.5, KerosinePrice = 50, CO2Price = 20, WindPercentage = 20 }
             };
