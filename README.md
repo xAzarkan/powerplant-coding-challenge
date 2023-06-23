@@ -38,10 +38,6 @@ dotnet run
 
 The API documentation is provided through Swagger UI, which can be accessed at `http://localhost:8888/swagger/index.html` after starting the application. In Swagger UI, you can explore the `/productionplan` endpoint for submitting a payload.
 
-## Requirements
-
-- Visual Studio 2022
-
 ## Author
 
 This project was created by Sofiane Azarkan.
