@@ -1,6 +1,5 @@
 ﻿using System;
 using powerplant_coding_challenge.Models;
-using System.Linq;
 
 namespace powerplant_coding_challenge.Services
 {
@@ -25,7 +24,7 @@ namespace powerplant_coding_challenge.Services
                 else if (powerplant.Type.Equals("windturbine"))
                 {
                     // No cost, so we can switch it on directly
-                    double powerProduced = powerplant.PowerMax * (productionPlan.Fuels.WindPercentage / 100);
+                    double powerProduced = powerplant.PMax * (productionPlan.Fuels.WindPercentage / 100);
                     remainingLoad -= powerProduced;
                     responses.Add(new ProductionPlanResponse { Name = powerplant.Name, Power = Math.Round(powerProduced, 1) });
                 }
@@ -44,7 +43,7 @@ namespace powerplant_coding_challenge.Services
             {
                 if(remainingLoad > 0)
                 {
-                    double powerProduced = Math.Min(remainingLoad, gasFiredPowerplant.PowerMax);
+                    double powerProduced = Math.Min(remainingLoad, gasFiredPowerplant.PMax);
                     responses.Add(new ProductionPlanResponse { Name = gasFiredPowerplant.Name, Power = Math.Round(powerProduced, 1) });
 
                     remainingLoad -= powerProduced;
@@ -60,7 +59,7 @@ namespace powerplant_coding_challenge.Services
             {
                 if (remainingLoad > 0)
                 {
-                    double powerProduced = Math.Min(remainingLoad, turbojetPowerplant.PowerMax);
+                    double powerProduced = Math.Min(remainingLoad, turbojetPowerplant.PMax);
                     responses.Add(new ProductionPlanResponse { Name = turbojetPowerplant.Name, Power = Math.Round(powerProduced, 1) });
 
                     remainingLoad -= powerProduced;

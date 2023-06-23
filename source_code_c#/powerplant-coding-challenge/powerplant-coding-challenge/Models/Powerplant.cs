@@ -10,10 +10,10 @@ namespace powerplant_coding_challenge.Models
 		public double Efficiency { get; set; }
 
         [JsonPropertyName("pmin")]
-        public double PowerMin { get; set; }
+        public double PMin { get; set; }
 
         [JsonPropertyName("pmax")]
-        public double PowerMax { get; set; }
+        public double PMax { get; set; }
     }
 }
 
